@@ -1,1 +1,10 @@
-# Arduino-Self-propelled-car
+# Arduino-自走車
+<img src="https://github.com/g91358677462/Arduino-Self-propelled-car/blob/main/assets/Arduino%E8%87%AA%E8%B5%B0%E8%BB%8A.PNG" width="50%" height="50%">
+
+以Linkit 7697 物聯網裝置開發板作為主體，用"linkit remote" APP 操控 
+功能:
+1. 可藉由手機藍芽操控自走車，讓其前後左右地移動。
+2. 循跡功能，以紅外線感測器判斷段黑線，讓自走車沿著黑線走。 
+3-1. 搭配音波測距物件，傳送目前前方距離多遠有物體給手機。 
+3-2. 避障功能，利用音波測距器，判斷前方是否有障礙物，來避開障礙物 ; 在循跡模式的時候則會改走沒有障礙物的路線。
+4. 搭配九軸感測器和蜂鳴器，判斷是否有跌倒，一旦跌倒，蜂鳴器會發出警報聲，也會傳送跌倒的訊息到手機。
